@@ -15,6 +15,10 @@
 		DD7F5F701CAD002900837690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7F5F6E1CAD002900837690 /* LaunchScreen.storyboard */; };
 		DD7F5F7B1CAD002900837690 /* LocalizationAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7F5F7A1CAD002900837690 /* LocalizationAppTests.m */; };
 		DD7F5F861CAD002900837690 /* LocalizationAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7F5F851CAD002900837690 /* LocalizationAppUITests.m */; };
+		DD7F5FA41CAD10EE00837690 /* mat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7F5FA61CAD10EE00837690 /* mat.jpg */; };
+		DD88E1E91CADFCE1009419A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD88E1EB1CADFCE1009419A2 /* Localizable.strings */; };
+		DD88E1F11CAE05FE009419A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD88E1F31CAE05FE009419A2 /* InfoPlist.strings */; };
+		DD88E1FB1CAE19E8009419A2 /* sach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD88E1FD1CAE19E8009419A2 /* sach.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,18 @@
 		DD7F5F811CAD002900837690 /* LocalizationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7F5F851CAD002900837690 /* LocalizationAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationAppUITests.m; sourceTree = "<group>"; };
 		DD7F5F871CAD002900837690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7F5F9E1CAD0CD400837690 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		DD7F5F9F1CAD0CD500837690 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DD7F5FA01CAD0CDA00837690 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		DD7F5FA11CAD0CDA00837690 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DD7F5FA81CAD10F200837690 /* vi */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vi; path = vi.lproj/mat.jpg; sourceTree = "<group>"; };
+		DD88E1EA1CADFCE1009419A2 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD88E1EC1CADFCE4009419A2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD88E1F21CAE05FE009419A2 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD88E1F51CAE0604009419A2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD88E1F71CAE0AD2009419A2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fr; path = fr.lproj/mat.jpg; sourceTree = "<group>"; };
+		DD88E1FC1CAE19E8009419A2 /* vi */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vi; path = vi.lproj/sach.jpg; sourceTree = "<group>"; };
+		DD88E1FE1CAE19E9009419A2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fr; path = fr.lproj/sach.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,8 @@
 		DD7F5F5F1CAD002900837690 /* LocalizationApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD88E1FD1CAE19E8009419A2 /* sach.jpg */,
+				DD7F5FA61CAD10EE00837690 /* mat.jpg */,
 				DD7F5F631CAD002900837690 /* AppDelegate.h */,
 				DD7F5F641CAD002900837690 /* AppDelegate.m */,
 				DD7F5F661CAD002900837690 /* ViewController.h */,
@@ -110,6 +128,8 @@
 				DD7F5F6E1CAD002900837690 /* LaunchScreen.storyboard */,
 				DD7F5F711CAD002900837690 /* Info.plist */,
 				DD7F5F601CAD002900837690 /* Supporting Files */,
+				DD88E1EB1CADFCE1009419A2 /* Localizable.strings */,
+				DD88E1F31CAE05FE009419A2 /* InfoPlist.strings */,
 			);
 			path = LocalizationApp;
 			sourceTree = "<group>";
@@ -225,6 +245,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				vi,
 			);
 			mainGroup = DD7F5F541CAD002900837690;
 			productRefGroup = DD7F5F5E1CAD002900837690 /* Products */;
@@ -243,7 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7F5FA41CAD10EE00837690 /* mat.jpg in Resources */,
+				DD88E1FB1CAE19E8009419A2 /* sach.jpg in Resources */,
+				DD88E1F11CAE05FE009419A2 /* InfoPlist.strings in Resources */,
 				DD7F5F701CAD002900837690 /* LaunchScreen.storyboard in Resources */,
+				DD88E1E91CADFCE1009419A2 /* Localizable.strings in Resources */,
 				DD7F5F6D1CAD002900837690 /* Assets.xcassets in Resources */,
 				DD7F5F6B1CAD002900837690 /* Main.storyboard in Resources */,
 			);
@@ -312,6 +338,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD7F5F6A1CAD002900837690 /* Base */,
+				DD7F5F9E1CAD0CD400837690 /* fr */,
+				DD7F5FA01CAD0CDA00837690 /* vi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -320,8 +348,48 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD7F5F6F1CAD002900837690 /* Base */,
+				DD7F5F9F1CAD0CD500837690 /* fr */,
+				DD7F5FA11CAD0CDA00837690 /* vi */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7F5FA61CAD10EE00837690 /* mat.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7F5FA81CAD10F200837690 /* vi */,
+				DD88E1F71CAE0AD2009419A2 /* fr */,
+			);
+			name = mat.jpg;
+			path = ../../../Desktop;
+			sourceTree = "<group>";
+		};
+		DD88E1EB1CADFCE1009419A2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD88E1EA1CADFCE1009419A2 /* vi */,
+				DD88E1EC1CADFCE4009419A2 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DD88E1F31CAE05FE009419A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD88E1F21CAE05FE009419A2 /* vi */,
+				DD88E1F51CAE0604009419A2 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD88E1FD1CAE19E8009419A2 /* sach.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD88E1FC1CAE19E8009419A2 /* vi */,
+				DD88E1FE1CAE19E9009419A2 /* fr */,
+			);
+			name = sach.jpg;
+			path = ../../../Desktop;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -496,6 +564,7 @@
 				DD7F5F8C1CAD002900837690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD7F5F8D1CAD002900837690 /* Build configuration list for PBXNativeTarget "LocalizationAppTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +573,7 @@
 				DD7F5F8F1CAD002900837690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD7F5F901CAD002900837690 /* Build configuration list for PBXNativeTarget "LocalizationAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +582,7 @@
 				DD7F5F921CAD002900837690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,9 +14,9 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +24,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)touch:(id)sender {
+    // tạo thông báo khi nhấm vào button
+     NSString * Messagelocalized = NSLocalizedString(@"BOOK_PURCHASE", @"");
+    NSString * Buttonlocalized = NSLocalizedString(@"BUTTON", @"");
+    NSString * Titlelocalized = NSLocalizedString(@"TITLE", @"");
+    UIAlertController *alert= [UIAlertController alertControllerWithTitle:Titlelocalized message:Messagelocalized preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *camera= [UIAlertAction actionWithTitle:Buttonlocalized style:UIAlertActionStyleDestructive handler: ^(UIAlertAction * action){}];
+    [alert addAction:camera];
+    UIViewController *vc = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+    [vc presentViewController:alert animated:YES completion:nil];
+    
+}
 @end
