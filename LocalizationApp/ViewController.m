@@ -23,7 +23,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+#pragma mark - Action button buy
 - (IBAction)touch:(id)sender {
     // tạo thông báo khi nhấm vào button
      NSString * Messagelocalized = NSLocalizedString(@"BOOK_PURCHASE", @"");
